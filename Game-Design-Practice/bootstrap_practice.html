@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        div{
+            color: white;
+            background-color: black ;
+            height: 100px;
+        }
+        .break{
+          margin-top:300px;
+        }
+        .grid-box {
+          border: 1px solid #ccc;
+          padding: 15px;
+          text-align: center;
+        }
+    </style>
+</head>
+
+  <body>
+      <div class="container">
+      <div class="row mb-3 text-center">
+        <div class="col-md-4 col-12 grid-box">Container 1</div>
+        <div class="col-md-4 col-12 grid-box">Container 2</div>
+        <div class="col-md-4 col-12 grid-box">Container 3</div>
+      </div>
+      <div class="row mb-3 text-center break">
+        <div class="col-xl-3 col-6 grid-box">Container 1</div>
+        <div class="col-xl-3 col-6 grid-box">Container 2</div>
+        <div class="col-xl-3 col-6 grid-box">Container 3</div>
+        <div class="col-xl-3 col-6 grid-box">Container 4</div>
+      </div>
+      <div class="row mb-3 text-center break d-none d-xl-block">
+        <div class="col-md col-6 grid-box">Container 1</div>
+        <div class="col-xl-3 col-6 grid-box">Container 2</div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
+  </body>
+
+</html>
