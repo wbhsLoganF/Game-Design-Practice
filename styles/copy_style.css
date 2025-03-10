@@ -6,17 +6,20 @@
     --txt: #ffffff;
 }
 
-body{
-    color: #fff !important;
-
-}
 nav{
     background-color: var(--primary-color);
-    color: var(--txt) !important;
     height: 150px;
 }
+
+.nav_link{
+    font-size: 310px; 
+}
+
+nav li a{
+    color: var(--txt) !important;
+}
 nav li a:hover{
-    background-color: var(--accent-color);
+    color: var(--accent-color) !important;
 }
 
 
